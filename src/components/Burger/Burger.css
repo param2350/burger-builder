@@ -1,0 +1,45 @@
+.Burger {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* ::-webkit-scrollbar {display:none;} */
+
+/* .Burger::-webkit-scrollbar {
+    display: none;
+} */
+
+@media only screen and (min-width: 500px) {
+    .Burger {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .Burger {
+        width: 380px;
+        height: 350px;
+    }
+}
+
+/* @media (min-width: 1000px) and (min-height: 700px) {
+    .Burger {
+        width: 600px;
+        height: 500px;
+    }
+} */
+
+@media only screen and (min-width:1000px){
+    .Burger {
+        width: 400px;
+        height: 300px;
+    }
+}

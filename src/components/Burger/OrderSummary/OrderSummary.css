@@ -1,0 +1,15 @@
+.Title {
+    width: 100%;
+    background-color: #474E5D;
+    /* padding: 10px; */
+    height: 50px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.Box {
+    padding: 15px;
+}
