@@ -6,8 +6,8 @@ import classes from "./App.css"
 class App extends Component {
   render() {
     return (
-      <div >
-        <Layout className={classes.Toolbar}>
+      <div className={classes.Body}>
+        <Layout >
           <BurgerBuilder></BurgerBuilder>
          
         </Layout>
