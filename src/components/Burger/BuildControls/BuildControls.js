@@ -33,6 +33,7 @@ const buildControls = (props) => {
             onClick={props.order}        
         >ORDER NOW</button>
     </div>
+   
 )};
 
 export default buildControls;
