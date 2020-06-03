@@ -10,6 +10,8 @@
     top: 25%;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
+    /* min-height: 10; */
+    
 }
 
 @media (min-width: 600px) {
@@ -22,7 +24,7 @@
 @media only screen and (max-width: 400px) {
     .Modal {
         width: 320px;
-        height: 380px; 
+        min-height: 10%; 
         left: 6%;
     }
 }
