@@ -1,6 +1,4 @@
-import * as actionTypes  from '../actions/actionTypes';
-
-
+import * as actionTypes from '../actions/actionTypes';
 
 const initialState = {
     orders: [],
@@ -52,7 +50,7 @@ const reducer = (state=initialState, action) => {
         case actionTypes.FETCH_ORDER_SUCCESS:
             return {
                 ...state,
-                orders: actionTypes.orders,
+                orders: action.orders,
                 loading: false
             }
         
