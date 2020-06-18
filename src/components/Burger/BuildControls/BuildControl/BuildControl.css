@@ -10,7 +10,7 @@
     font: inherit;
     padding: 5px;
     margin: 0 5px;
-    width: 80px;
+    width: 60px;
     border: 1px solid white;
     cursor: pointer;
     outline: none;
@@ -54,4 +54,10 @@
 .BuildControl .More:hover,.BuildControl .More:active {
     background-color: #245501;
     color: white;
+}
+
+@media only screen and (min-width: 350px){
+    .BuildControl button {
+        color: red;
+    }
 }

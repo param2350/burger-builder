@@ -1,7 +1,8 @@
 .Toolbar{
-    height: 56px;
+    height: 48px;
     width: 100%;
     position: fixed;
+    margin: 0px;
     left: 0;
     top: 0;
     background-color: #474E5D;
@@ -23,6 +24,8 @@
 @media (max-width: 499px){
     .DesktopOnly {
         display: none;
+        margin: 0px;
+        width: auto;
     }
 }
 

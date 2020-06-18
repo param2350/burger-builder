@@ -22,7 +22,7 @@ const orderSummary = (props) => {
         </ul>
         <p style={{
             textAlign : 'center'
-        }}>{"Rs. " + props.price.toFixed(2) * 60}</p>
+        }}>{"Rs. " + props.price}</p>
         <p style={{
             textAlign : 'center'
         }}>Continue to Checkout</p>

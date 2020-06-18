@@ -1,0 +1,23 @@
+.CheckOutSummary {
+    text-align: center;
+    box-sizing: border-box;
+    width: auto;
+    margin: auto;
+}
+
+.BurgerContainer {
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    margin-top: 10%;
+}
+
+@media (min-width: 600px){
+    .CheckOutSummary {
+        width: 500px;
+    }
+
+    .BurgerContainer {
+        width: 100%;
+    }
+}

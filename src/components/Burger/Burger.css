@@ -2,6 +2,7 @@
     display: flex;
     flex-flow: column;
     width: 90%;
+    box-sizing: border-box;
     margin: auto;
     height: 200px;
     overflow: auto;
@@ -16,17 +17,13 @@
     display: none;
 } */
 
-@media only screen and (min-width: 500px) {
-    .Burger {
-        width: 350px;
-        height: 300px;
-    }
-}
+
 
 @media only screen and (min-width: 300px) {
     .Burger {
-        width: 380px;
-        height: 350px;
+        text-align: center;
+        width: 100%;
+        height: 220px;
     }
 }
 
@@ -37,9 +34,16 @@
     }
 } */
 
-@media only screen and (min-width:1000px){
+@media only screen and (min-width: 500px) {
     .Burger {
         width: 400px;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    .Burger {
+        width: 450px;
         height: 300px;
     }
 }

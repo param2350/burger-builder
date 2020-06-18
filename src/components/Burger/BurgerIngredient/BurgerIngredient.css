@@ -3,8 +3,14 @@
     width: 80%;
     background: linear-gradient(#F08E4A, #e27b36);
     border-radius: 0 0 30px 30px;
-    box-shadow: inset -15px 0 #c15711;
+    
     margin: 2% auto;
+
+    box-shadow: 
+        8px 0px 2px 0 #c15711,
+        -8px -8px 8px 0 rgba(255,255,255,1),
+        8px 8px 8px 0 rgba(0,0,0,0.3);
+
 }
 
 .BreadTop {
@@ -12,9 +18,13 @@
     width: 80%;
     background: linear-gradient(#bc581e, #e27b36);
     border-radius: 50% 50% 0 0;
-    box-shadow: inset -15px 0 #c15711;
     margin: 2% auto;
     position: relative;
+    box-shadow: 
+        8px -1px 2px 0 #c15711,
+        -8px -8px 8px 0 rgba(255,255,255,1),
+        8px 8px 8px 0 rgba(0,0,0,0.3);
+
 }
 
 .Seeds1 {
@@ -26,7 +36,11 @@
     top: 50%;
     border-radius: 40%;
     transform: rotate(-20deg);
-    box-shadow: inset -2px -3px #c9c9c9;
+    
+    box-shadow: 
+        inset -2px -2px 5px 0 rgba(255,255,255,1),
+        inset 2px 2px 5px 0 rgba(0,0,0,0.3);
+
 }
 
 .Seeds1:after {
@@ -39,7 +53,11 @@
     top: -260%;
     border-radius: 40%;
     transform: rotate(60deg);
-    box-shadow: inset -1px 2px #c9c9c9;
+   
+    box-shadow: 
+        inset 2px -2px 5px 0 rgba(255,255,255,1),
+        inset -2px 2px 5px 0 rgba(0,0,0,0.3);
+    
   }
   
 .Seeds1:before {
@@ -52,7 +70,10 @@
     top: -50%;
     border-radius: 40%;
     transform: rotate(60deg);
-    box-shadow: inset -1px -3px #c9c9c9;
+    box-shadow: 
+        inset 2px -2px 5px 0 rgba(255,255,255,1),
+        inset -2px 2px 5px 0 rgba(0,0,0,0.3);
+    
   }
 
   .Seeds2 {
@@ -64,7 +85,11 @@
     top: 50%;
     border-radius: 40%;
     transform: rotate(10deg);
-    box-shadow: inset -3px 0 #c9c9c9;
+    box-shadow: 
+        inset 2px -2px 5px 0 rgba(255,255,255,1),
+        inset -2px 2px 5px 0 rgba(0,0,0,0.3);
+    
+    
   }
   
   .Seeds2:before {
@@ -77,7 +102,10 @@
     top: -130%;
     border-radius: 40%;
     transform: rotate(90deg);
-    box-shadow: inset 1px 3px #c9c9c9;
+    box-shadow: 
+        inset 2px -2px 5px 0 rgba(255,255,255,1),
+        inset -2px 2px 5px 0 rgba(0,0,0,0.3);
+    
   }
   
 
@@ -85,16 +113,24 @@
     width: 80%;
     height: 8%;
     background: linear-gradient(#7f3608, #5E361A);
-    margin: 2% auto;
+    margin: 1% auto;
     border-radius: 15px;
+    box-shadow: 
+        -8px -8px 8px 0 rgba(255,255,255,1),
+        8px 8px 8px 0 rgba(0,0,0,0.3);
+
 }
 
 .Cheese {
     width: 90%;
-    height: 4.5%;
-    margin: 2% auto;
-    background: linear-gradient(#F5DD92, #d6bb22);
+    height: 3.5%;
+    margin: 1% auto;
+    background: linear-gradient(rgb(246, 248, 150), #fad816);
     border-radius: 20px;
+    box-shadow: 
+        -8px -8px 8px 0 rgba(255,255,255,1),
+        8px 8px 8px 0 rgba(0,0,0,0.3);
+
 }
 
 .Salad {
@@ -103,11 +139,19 @@
     margin: 2% auto;
     background: linear-gradient(#228c1d, #9FD92B);
     border-radius: 20px;
+    box-shadow: 
+        -8px -8px 8px 0 rgba(255,255,255,1),
+        8px 8px 8px 0 rgba(0,0,0,0.3);
+
 }
 
 .Bacon {
     width: 80%;
     height: 3%;
     background: linear-gradient(#bf3813, #c45e38);
-    margin: 2% auto;
+    margin: 1% auto;
+    box-shadow: 
+        -8px -8px 8px 0 rgba(255,255,255,1),
+        8px 8px 8px 0 rgba(0,0,0,0.3);
+
 }
