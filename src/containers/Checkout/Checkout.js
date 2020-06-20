@@ -6,10 +6,6 @@ import classes from './Checkout.css'
 import {connect} from 'react-redux';
 
 class Checkout extends Component {
-
-    componentDidMount () {
-
-    }
    
     CheckoutCancelledHandler = () => {
         this.props.history.goBack();

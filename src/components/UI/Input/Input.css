@@ -1,24 +1,22 @@
 .Input {
     width: 100%;
-    padding: 10px;
+    padding: 18px 8px 8px 8px;
     box-sizing: border-box;
+
 }
 
-.Label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 8px;
-}
+
 
 .InputElement {
     outline: none;
     border: 1px solid #ccc;
     background-color: white;
     font: inherit;
-    padding: 8px 10px;
+    padding: 4px 10px;
     display: block;
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
+    margin: auto;
 }
 
 

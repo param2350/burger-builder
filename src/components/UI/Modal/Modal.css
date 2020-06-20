@@ -2,12 +2,13 @@
     position: fixed;
     z-index: 500;
     background-color: white;
-    width: 70%;
+    width: 85%;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px black;
     /* padding: 16px; */
-    left: 15%;
+    
     top: 25%;
+    left: 7%;;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
     /* min-height: 10; */
@@ -21,10 +22,10 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     .Modal {
         width: 320px;
         min-height: 10%; 
         left: 6%;
     }
-}
+} */

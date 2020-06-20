@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Button from '../../../components/UI/Button/Button';
 import classes from './ContactData.css';
-import axios from '../../../axios-order';
 import Spinner from '../../../components/UI/Spinner/Spinner';
 import Input from '../../../components/UI/Input/Input';
 import { connect } from 'react-redux';
@@ -57,10 +56,12 @@ class ContactData extends Component {
         for (let element in this.state.orderForm){
             formData[element] = this.state.orderForm[element].value
         }
+  
         const order = {
             ingredients : this.props.ings,
             orderData: formData,
             deliveryMethod: 'premium',
+            userid: this.props.userid,
             price: this.props.price
 
 
@@ -136,7 +137,9 @@ const mapStateToProps = state => {
     return {
         ings: state.burgerBuilder.ingredients,
         price: state.burgerBuilder.totalPrice,
-        loading: state.order.loading
+        loading: state.order.loading,
+        userid: state.auth.userId
+        
     }
 }
 

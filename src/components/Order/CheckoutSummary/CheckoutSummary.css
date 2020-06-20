@@ -12,12 +12,3 @@
     margin-top: 10%;
 }
 
-@media (min-width: 600px){
-    .CheckOutSummary {
-        width: 500px;
-    }
-
-    .BurgerContainer {
-        width: 100%;
-    }
-}
